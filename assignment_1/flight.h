@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class flight
+class Flight
 {
 private:
     int flightNumber;
@@ -11,6 +11,6 @@ private:
     float calcFuel();
 
 public:
-    void feedInfo(int flightNumber, string destination, float distance, float fuel);
+    void feedInfo(int flightNumber, string destination, float distance);
     void showInfo();
 };

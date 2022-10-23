@@ -2,6 +2,7 @@
 #include "student.cpp"
 #include "batsman.cpp"
 #include "test.cpp"
+#include "flight.cpp"
 
 #include "rectangle.h"
 #include "complex.h"
@@ -40,6 +41,13 @@ int main()
     cout << endl;
 
     // problem 4:
+    Flight flight;
+    cout << "========== Problem 4 ==========" << endl;
+    flight.feedInfo(1215, "Ireland", 3000);
+    flight.showInfo();
+
+    cout << endl;
+    cout << endl;
 
     // problem 5:
 
