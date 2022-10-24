@@ -22,15 +22,12 @@ void Flight::showInfo()
 
 float Flight::calcFuel()
 {
-    float retval;
     if (distance <= 1000)
-        retval = 500;
+        return 500;
 
     else if (distance > 1000 && distance <= 2000)
-        retval = 1100;
+        return 1100;
 
     else if (distance > 2000)
-        retval = 2200;
-
-    return retval;
+        return 2200;
 }

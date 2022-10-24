@@ -4,7 +4,7 @@
 
 using namespace std;
 
-double Test::SCHEDULE(int TestCode, string Description, int NoCandidate, int CenterReqd)
+double Test::SCHEDULE(int TestCode, string Description, int NoCandidate)
 {
     this->TestCode = TestCode;
     this->Description = Description;

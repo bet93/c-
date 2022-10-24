@@ -11,6 +11,6 @@ private:
     double CALCNTR();
 
 public:
-    double SCHEDULE(int TestCode, string Description, int NoCandidate, int CenterReqd);
+    double SCHEDULE(int TestCode, string Description, int NoCandidate);
     void DISPTEST();
 };

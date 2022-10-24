@@ -1,8 +1,10 @@
 #include <iostream>
-#include "student.cpp"
-#include "batsman.cpp"
-#include "test.cpp"
-#include "flight.cpp"
+#include "student.h"
+#include "batsman.h"
+#include "test.h"
+#include "flight.h"
+#include "book.h"
+#include "report.h"
 
 #include "rectangle.h"
 #include "complex.h"
@@ -34,7 +36,7 @@ int main()
     // problem 3:
     Test test;
     cout << "========== Problem 3 ==========" << endl;
-    test.SCHEDULE(12, "Foundation Exam", 450, 150);
+    test.SCHEDULE(12, "Foundation Exam", 450);
     test.DISPTEST();
 
     cout << endl;
@@ -50,8 +52,24 @@ int main()
     cout << endl;
 
     // problem 5:
+    Book book;
+    int copies;
+    cout << "========== Problem 4 ==========" << endl;
+    book.input(13, "Everyday", 15.00);
+    book.purchase();
+
+    cout << endl;
+    cout << endl;
 
     // problem 6:
+    cout << "========== Problem 6 ==========" << endl;
+    Report rep;
+    float mark[5] = {5.0, 4.0, 3.5, 3.2, 4.5};
+    rep.READINFO(5465, "Amelia", mark);
+    rep.DISPLAYINFO();
+
+    cout << endl;
+    cout << endl;
 
     // problem 7:
     Rectangle r1, r2;
